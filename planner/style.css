@@ -24,6 +24,20 @@ div.table-title {
     text-transform: uppercase;
 }
 
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: 5;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 /*      HEADER STYLES       */
 
@@ -37,6 +51,8 @@ h1 {
     color: #FFFFFF;
     font-family: sans-serif;
     margin: 100px auto;
+    margin-top: 0;
+    margin-bottom: 0px;
     text-align: center;
     font-size: 40px;
     max-width: 600px;
@@ -47,24 +63,65 @@ h1:before {
     content: "";
     display: block;
     width: 120px;
-    height: 2px;
-    background: rgb(177, 146, 146);
+    height: 8px;
+    background: #D64C66;
     position: absolute;
-    left: 0;
+    left: -20%;
     top: 50%;
-    z-index: -2;
+    z-index: 2;
 }
 
 h1:after {
     content: "";
     display: block;
     width: 120px;
-    height: 2px;
-    background: #000;
+    height: 8px;
+    background: #D64C66;
     position: absolute;
-    right: 0;
+    right: -22%;
     top: 50%;
-    z-index: -2;
+    z-index: 2;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+}
+
+.container:before {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #4c83d6;
+    position: absolute;
+    top: 50%;
+    z-index: 3;
+}
+
+.container:after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #8fd64c;
+    position: absolute;
+    top: 50%;
+    z-index: 3;
+}
+
+h3 {
+    color: #FFFFFF;
+    font-family: sans-serif;
+    margin: 20px auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 100px;
+    position: relative;
 }
 
 span {
