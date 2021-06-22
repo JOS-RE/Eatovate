@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
+body {
+    background-color: #FFFEEF;
+    font-family: "Roboto", helvetica, arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+div.table-title {
+    display: block;
+    margin: auto;
+    max-width: 900px;
+    padding: 5px;
+    width: 100%;
+}
+
+.table-title h3 {
+    color: #fafafa;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Roboto", helvetica, arial, sans-serif;
+    text-transform: uppercase;
+}
+
+
+/*      HEADER STYLES       */
+
+header {
+    background-color: #7F7E7A;
+    height: 550px;
+    margin: 0px auto;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: sans-serif;
+    margin: 100px auto;
+    text-align: center;
+    font-size: 40px;
+    max-width: 600px;
+    position: relative;
+}
+
+h1:before {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: rgb(177, 146, 146);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -2;
+}
+
+h1:after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -2;
+}
+
+span {
+    background: #fff
+}
+
+
+/*** Table Styles **/
+
+.table-fill {
+    background: white;
+    border-width: 10px;
+    border-radius: 3px;
+    border-collapse: collapse;
+    height: 460px;
+    margin: auto;
+    max-width: 900px;
+    padding: 5px;
+    width: 100%;
+    animation: float 5s infinite;
+}
+
+th {
+    color: #D5DDE5;
+    ;
+    background: #1b1e24;
+    border-bottom: 4px solid #FFFEEF;
+    border-right: 1px solid #FFFEEF;
+    font-size: 23px;
+    font-weight: 100;
+    padding: 24px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+tr {
+    border-top: 2px solid #FFFEEF;
+    border-bottom: 1px solid #FFFEEF;
+    color: #1c1e27;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+tr:first-child {
+    border-top: none;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+tr:nth-child(odd) td {
+    background: #FFD6DE;
+}
+
+tr:nth-child(even) td {
+    background: #D6EBEC;
+}
+
+tr:last-child td:first-child {
+    border-bottom-left-radius: 3px;
+}
+
+tr:last-child td:last-child {
+    border-bottom-right-radius: 3px;
+}
+
+td {
+    background: #7c1e1e;
+    padding: 20px;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: 300;
+    font-size: 23px;
+    border-right: 3px solid #FFFEEF;
+}
+
+td:last-child {
+    border-right: 0px;
+}
+
+th.text-left {
+    text-align: left;
+    font-weight: bold;
+}
+
+th.text-center {
+    text-align: center;
+    padding-left: 20px;
+}
+
+th.text-right {
+    text-align: right;
+}
+
+td.text-left {
+    text-align: center;
+    font-weight: 900;
+    font-size: 26px;
+}
+
+td.text-center {
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+}
+
+td.text-right {
+    text-align: right;
+}
