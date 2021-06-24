@@ -1,10 +1,9 @@
 function fun1(a) {
     if (a == 1) {
-        document.getElementById("ma").innerHTML = document.getElementById("male").innerText;
+        document.getElementById("gender").innerHTML = document.getElementById("male").innerText;
         disp("male");
-    }
-    else {
-        document.getElementById("ma").innerHTML = document.getElementById("female").innerText;
+    } else {
+        document.getElementById("gender").innerHTML = document.getElementById("female").innerText;
         disp("female");
     }
 }
@@ -20,6 +19,10 @@ function disp(id) {
 
 function m12() {
     disp("female");
-    document.getElementById("ma").innerHTML = document.getElementById("m2").innerHTML;
+    document.getElementById("gender").innerHTML = document.getElementById("m2").innerHTML;
+
+}
+
+function imgg() {
 
 }
