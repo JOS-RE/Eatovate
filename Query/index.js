@@ -23,6 +23,8 @@ function m12() {
 
 }
 
-function imgg() {
+function m13() {
+    disp("female");
+    document.getElementById("gender").innerHTML = document.getElementById("m13").innerHTML;
 
 }

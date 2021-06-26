@@ -11,7 +11,7 @@
     <title>quiz</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -21,49 +21,54 @@
 
     <!--------- Button Series 1 ------------->
 
-    <section id="gender">
-        <button onclick="fun1(1)">Male</button>
-        <button onclick="fun1(2)">Female</button>
-    </section>
+    <div class="container1">
+
+        <section id="gender">
+            <button onclick="fun1(1)" id="M">Male</button>
+            <button onclick="fun1(2)" id="F">Female</button>
+        </section>
 
 
-    <div id="male" style="display: none;">
-        <input type="button" value="bt1">
-        <input type="button" value="bt2">
-        <input type="button" value="bt3">
-        <input type="button" value="bt4">
-    </div>
+        <!----------- Button series M ------------>
+        <div id="male" style="display: none;">
+            <input type="button" value="M1" id="MM1">
+            <input type="button" value="M2" id="MM2">
+            <input type="button" value="M3" id="MM3">
+            <input type="button" value="M4" id="MM4">
+        </div>
+
+        <!-------- Button Series F --------------->
+        <div id="female" style="display: none;">
+            <input type="button" value="F1" id="FF1" class="alpha">
+            <input type="button" value="F2" id="FF2">
+            <input type="button" value="F3" id="FF3" class="alpha" onclick="m12()">
+            <input type="button" value="F4" id="FF4" onclick="m13()">
+        </div>
 
 
-    <div id="female" style="display: none;">
-        <input type="button" value="bt11" onclick="m12()">
-        <input type="button" value="bt22">
-        <input type="button" value="bt33">
-        <input type="button" value="bt44">
-    </div>
+        <div id="m1" style="display: none;">
+            <h2>abcd</h2>
+            <button id="FF3A">R</button>
+            <button id="FF3B">P</button>
+            <button id="FF3A">Q</button>
+            <button id="FF3B">S</button>
+        </div>
 
+        <div id="m13" style="display: none;">
+            <img width="25%" src="" alt="">
+        </div>
 
-    <div id="m1" style="display: none;">
-        <h2>abcd</h2>
-        <input type="button" value="bt112">
-        <input type="button" value="bt22">
-        <input type="button" value="bt33">
-        <input type="button" value="bt44">
-    </div>
-
-
-    <div id="m2" style="display: none;">
-        <h2>cdef</h2>
-        <button>dd</button>
-        <button>        <div id="Texting">
-            <img style="width: 20px;" src="/assets/img/about.jpg" alt="">
-        </div></button>
-        <button>dd</button>
-
+        <div id="m2" style="display: none;">
+            <button id="FF3A">R</button>
+            <button id="FF3B">
+                P
+            </button>
+        </div>
 
     </div>
 
     <script src="index.js" async defer></script>
+
 </body>
 
 </html>
