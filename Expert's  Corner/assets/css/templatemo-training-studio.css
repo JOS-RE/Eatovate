@@ -821,6 +821,7 @@ Our Classes
 
 #our-classes {
     margin-bottom: 140px;
+    background-image: url(../images/abcd.jpg)
 }
 
 #tabs ul {
@@ -971,10 +972,6 @@ schedule
     transition: all 0.5s;
 }
 
-# .filters {
-    margin-bottom: 40px;
-}
-
 #schedule .filters ul {
     padding: 0;
     text-align: center;
@@ -1096,6 +1093,15 @@ trainers
 contact
 --------------------------------------------- 
 */
+
+.hoverbox {
+    margin: 5px;
+}
+
+.hoverbox:hover {
+    background-color: #1e1e1e83;
+    border-radius: 15px;
+}
 
 #contact-us {
     margin-top: 140px;
