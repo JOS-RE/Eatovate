@@ -928,7 +928,6 @@ schedule
 
 #schedule {
     padding: 0px 0px 140px 0px;
-    background-image: url(../images/background.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -936,7 +935,6 @@ schedule
 
 #schedule2 {
     padding: 0px 0px 140px 0px;
-    background-image: url(../images/background.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -977,10 +975,6 @@ schedule
 .schedule-table.filtering .ts-item.show {
     opacity: 1;
     transition: all 0.5s;
-}
-
-# .filters {
-    margin-bottom: 40px;
 }
 
 #schedule .filters ul {
@@ -1562,4 +1556,20 @@ responsive
     .feature-item .right-content a.text-button {
         margin-left: 130px;
     }
+}
+
+#biggerbg {
+    background-image: url(../images/glitter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.divisionhead {
+    padding: 15px;
+    border-radius: 40px;
+    background-color: rgba(243, 243, 243, 0.582);
+}
+
+.divisionhead:hover {
+    background-color: #ffffffb9;
 }
