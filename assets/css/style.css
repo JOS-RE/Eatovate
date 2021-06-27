@@ -1837,3 +1837,45 @@ section {
 .wrapper .youtube:hover .tooltip:before {
     background: #DE463B;
 }
+
+.container1 {
+    box-sizing: content-box;
+    background-color: rgb(179, 179, 179);
+    border-radius: 20px;
+    width: 10%rem;
+    box-shadow: black;
+    max-width: 90%;
+    padding: 15%;
+}
+
+.alpha {
+    height: 380px;
+    width: 160px;
+    margin: 10px;
+    border: 2px;
+    background-color: rgba(255, 255, 255, 0.616);
+    box-shadow: black;
+    padding: 15px 18px 15px 15px;
+    border-radius: 15px;
+}
+
+.alpha:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.beta {
+    height: 350px;
+    width: 350px;
+    margin: 10px;
+    border: 2px;
+    background-color: rgba(255, 255, 255, 0.616);
+    box-shadow: black;
+    padding: 15px 18px 15px 15px;
+    border-radius: 15px;
+}
+
+.beta:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.884);
+}
