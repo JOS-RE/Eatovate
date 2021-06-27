@@ -1114,7 +1114,6 @@ contact
 #contact-us .contact-form {
     padding: 80px;
     background-image: url(../images/contact-bg.jpg);
-    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1186,7 +1185,8 @@ contact
 --------------------------------------------------------------*/
 
 #footer {
-    background: url("/assets/img/footer-bg.jpg") center center no-repeat;
+    background: url(../images/footer-bg.jpg);
+    background-repeat: no-repeat;
     color: #fff;
     font-size: 14px;
     position: relative;

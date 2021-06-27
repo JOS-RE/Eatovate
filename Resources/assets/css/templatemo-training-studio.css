@@ -1189,7 +1189,8 @@ footer
 --------------------------------------------------------------*/
 
 #footer {
-    background: url("/assets/img/footer-bg.jpg") center center no-repeat;
+    background: url(../images/footer-bg.jpg);
+    background-repeat: no-repeat;
     color: #fff;
     font-size: 14px;
     position: relative;
