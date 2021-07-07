@@ -14,7 +14,7 @@ Team : <strong>Nautilus</strong>
 
 ## Project Description
 
-
+> ### Theme : _Healthcare - Nutrition_
 
 ### 'Eatovate' is based on emphasising the `Role of Nutrition in Healthy Lifestyle.`
 
